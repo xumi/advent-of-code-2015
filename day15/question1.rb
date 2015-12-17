@@ -35,7 +35,7 @@ require File.join File.dirname(__FILE__), 'searcher'
 input  = File.read('./input.txt')
 
 # Let's analyze!
-asnwer = search(input)
+answer = search(input)
 
 # We display the result
-puts asnwer
+puts answer

@@ -22,7 +22,7 @@ input  = File.new('./input.txt', 'r').gets
 # The prefix we are looking for
 needle = '00000'
 # Let's mine!
-asnwer = search(input, needle)
+answer = search(input, needle)
 
 # We display the result
-puts [asnwer, 'is a valid gift!'].join(' ')
+puts [answer, 'is a valid gift!'].join(' ')

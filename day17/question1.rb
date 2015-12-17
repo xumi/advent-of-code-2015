@@ -24,7 +24,7 @@ input  = File.read('./input.txt')
 total = 150
 
 # Let's analyze!
-asnwer = search(input, total)
+answer = search(input, total)
 
 # We display the result
-puts asnwer[:possible_combinations]
+puts answer[:possible_combinations]

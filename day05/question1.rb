@@ -26,7 +26,7 @@ require File.join File.dirname(__FILE__), 'analyzer'
 input  = File.read('./input.txt')
 
 # Let's analyze!
-asnwer = search(input)
+answer = search(input)
 
 # We display the result
-puts ['There are', asnwer, 'nice strings!'].join(' ')
+puts ['There are', answer, 'nice strings!'].join(' ')

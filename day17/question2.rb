@@ -21,7 +21,7 @@ input  = File.read('./input.txt')
 total = 150
 
 # Let's analyze!
-asnwer = search(input, total)
+answer = search(input, total)
 
 # We display the result
-puts asnwer[:minimum_combinations]
+puts answer[:minimum_combinations]

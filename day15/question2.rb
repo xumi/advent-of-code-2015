@@ -21,7 +21,7 @@ input  = File.read('./input.txt')
 amount_of_calories = 500
 
 # Let's analyze!
-asnwer = search(input, amount_of_calories)
+answer = search(input, amount_of_calories)
 
 # We display the result
-puts asnwer
+puts answer
